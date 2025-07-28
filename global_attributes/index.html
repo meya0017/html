@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
+<head>
+  <meta charset="UTF-8">
+  <title>Global Attributes in Action</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    textarea, button {
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 14px;
+      margin-top: 10px;
+      padding: 8px;
+    }
+
+    button {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container"
+       id="main-container"
+       class="container-class"
+       lang="en"
+       dir="ltr"
+       title="Main Container"
+       accesskey="c"
+       contenteditable="false"
+       draggable="false"
+       itemprop="mainEntity"
+       itemid="container-1"
+       itemscope
+       itemtype="https://schema.org/Container"
+       part="wrapper"
+       slot="container-slot"
+       spellcheck="false"
+       style="border: none;"
+       tabindex="0"
+       translate="yes"
+       inputmode="text"
+       autocapitalize="none"
+       enterkeyhint="next"
+       nonce="container123">
+
+    <h1 id="heading"
+        class="heading-class"
+        lang="en"
+        dir="ltr"
+        title="This is a heading"
+        accesskey="h"
+        contenteditable="false"
+        draggable="false"
+        itemprop="headline"
+        itemid="heading-1"
+        itemref="help-box"
+        itemscope
+        itemtype="https://schema.org/Headline"
+        part="title"
+        slot="main-heading"
+        spellcheck="false"
+        style="font-weight: bold;"
+        tabindex="1"
+        translate="yes"
+        inputmode="text"
+        autocapitalize="words"
+        enterkeyhint="next"
+        nonce="abc123">
+      Global Attributes in Action
+    </h1>
+
+    <textarea id="help-box"
+              class="input-class"
+              lang="en"
+              dir="ltr"
+              title="Type something here"
+              accesskey="i"
+              contenteditable="true"
+              draggable="true"
+              itemprop="description"
+              itemid="textarea-1"
+              itemscope
+              itemtype="https://schema.org/Text"
+              itemref="heading"
+              part="input"
+              slot="input-box"
+              spellcheck="true"
+              style="border: 1px solid #333;"
+              tabindex="2"
+              translate="no"
+              inputmode="text"
+              autocapitalize="sentences"
+              enterkeyhint="send"
+              nonce="def456">Help</textarea>
+
+    <button id="submit-btn"
+            class="button-class"
+            lang="en"
+            dir="ltr"
+            title="Click to submit"
+            accesskey="b"
+            contenteditable="false"
+            draggable="false"
+            itemprop="potentialAction"
+            itemid="button-1"
+            itemscope
+            itemtype="https://schema.org/Action"
+            itemref="help-box"
+            part="submit-button"
+            slot="button-slot"
+            spellcheck="false"
+            style="border: 1px solid #333;"
+            tabindex="3"
+            translate="yes"
+            inputmode="text"
+            autocapitalize="off"
+            enterkeyhint="done"
+            nonce="ghi789">
+      Submit
+    </button>
+
+  </div>
+  <br>
+  <img id="submit-btn"
+            class="button-class"
+            lang="en"
+            dir="ltr"
+            title="Click to submit"
+            accesskey="b"
+            contenteditable="false"
+            draggable="false"
+            itemprop="potentialAction"
+            itemid="button-1"
+            itemscope
+            itemtype="https://schema.org/Action"
+            itemref="help-box"
+            part="submit-button"
+            slot="button-slot"
+            spellcheck="false"
+            style="border: 1px solid #333;"
+            tabindex="3"
+            translate="yes"
+            inputmode="text"
+            autocapitalize="off"
+            enterkeyhint="done"
+            nonce="ghi789">src="" alt="">
+
+</body>
+</html>
