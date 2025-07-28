@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soldier Registration Full Form</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px;
+      min-height: 100vh;
+    }
+
+    form {
+      background: #000;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
+      padding: 35px;
+      width: 700px;
+      color: #fff;
+    }
+
+    h2 {
+      text-align: center;
+      color: #00ffff;
+      margin-bottom: 25px;
+    }
+
+    fieldset {
+      border: 2px solid #00ffff66;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 25px;
+    }
+
+    legend {
+      padding: 0 10px;
+      font-weight: bold;
+      font-size: 1.2em;
+      color: #00ffff;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      color: #e0e0e0;
+    }
+
+    input, select, textarea, datalist {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+      font-size: 1em;
+      background-color: #1a1a1a;
+      color: #fff;
+    }
+
+    input[type="checkbox"], input[type="radio"] {
+      width: auto;
+      margin-right: 8px;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #00ffff;
+      color: #000;
+      border: none;
+      font-weight: bold;
+      font-size: 1em;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 25px;
+    }
+
+    button:hover {
+      background: #00e6e6;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="https://Microsoft.com">
+    <h2>Advanced Soldier Registration</h2>
+
+    <fieldset>
+      <legend>Basic Info</legend>
+      <label for="text">Full Name:</label>
+      <input type="text" id="text" name="text" value="Mustafa Abdulkadir" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" value="SecurePass123">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" value="mustafa@example.mil">
+
+      <label for="tel">Phone Number:</label>
+      <input type="tel" id="tel" name="tel" value="+44 7000 123456">
+
+      <label for="url">Profile URL:</label>
+      <input type="url" id="url" name="url" value="https://soldierprofile.mil/mustafa">
+
+      <label for="search">Search Unit:</label>
+      <input type="search" id="search" name="search" value="Bravo Team">
+    </fieldset>
+
+    <fieldset>
+      <legend>Details</legend>
+      <label for="number">Service Number:</label>
+      <input type="number" id="number" name="number" min="1" value="903820">
+
+      <label for="date">Date of Enlistment:</label>
+      <input type="date" id="date" name="date" value="2022-04-15">
+
+      <label for="time">Time of Deployment:</label>
+      <input type="time" id="time" name="time" value="06:30">
+
+      <label for="datetime-local">Full Timestamp:</label>
+      <input type="datetime-local" id="datetime-local" name="datetime-local" value="2025-07-20T06:30">
+
+      <label for="month">Month of Training:</label>
+      <input type="month" id="month" name="month" value="2025-05">
+
+      <label for="week">Week of Training:</label>
+      <input type="week" id="week" name="week" value="2025-W20">
+    </fieldset>
+
+    <fieldset>
+      <legend>Equipment & Preferences</legend>
+      <label for="weapon">Choose Weapon:</label>
+      <select id="weapon" name="weapon">
+        <option value="M4" selected>M4</option>
+        <option value="AK-47">AK-47</option>
+        <option value="G36">G36</option>
+      </select>
+
+      <label for="gear">Gear List:</label>
+      <textarea id="gear" rows="3">Helmet, Tactical Radio, NV Goggles, Medical Kit</textarea>
+
+      <label for="equipment">Available Options (datalist):</label>
+      <input list="equipment" name="equipment" value="Body Armor">
+      <datalist id="equipment">
+        <option value="Drone">
+        <option value="Body Armor">
+        <option value="Radio">
+      </datalist>
+
+      <label>Special Permissions:</label>
+      <label><input type="checkbox" name="clearance" value="alpha" checked> Alpha Access</label>
+      <label><input type="checkbox" name="clearance" value="bravo"> Bravo Access</label>
+
+      <label>Deployment Type:</label>
+      <label><input type="radio" name="deployment" value="local" checked> Local</label>
+      <label><input type="radio" name="deployment" value="foreign"> Foreign</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Other Input Types</legend>
+      <label for="color">Choose Tag Color:</label>
+      <input type="color" id="color" name="color" value="#00ff00">
+
+      <label for="file">Upload Document:</label>
+      <input type="file" id="file" name="file">
+
+      <label for="range">Fitness Level:</label>
+      <input type="range" id="range" name="range" min="0" max="10" value="8">
+
+      <label for="hidden">Hidden Field (internal use):</label>
+      <input type="hidden" id="hidden" name="hidden" value="secret123">
+    </fieldset>
+
+    <button type="submit">Register</button>
+  </form>
+
+</body>
+</html>
